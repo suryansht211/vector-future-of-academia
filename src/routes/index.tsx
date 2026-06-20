@@ -971,7 +971,7 @@ function Landing() {
       <WhyVector />
       <TechStack />
       <Roadmap />
-      <Testimonials />
+      <Team />
       <Pricing />
       <FAQ />
       <CTA />
