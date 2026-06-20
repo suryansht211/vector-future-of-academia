@@ -5,7 +5,7 @@ import {
   ArrowRight, Play, Sparkles, Brain, GraduationCap, BookOpen, Building2,
   Users, Wallet, Library, Home, Cpu, Briefcase, FlaskConical, FileText,
   Calendar, BarChart3, ShieldCheck, Bot, ClipboardCheck, Check, X,
-  ChevronDown, Github, Twitter, Linkedin, Moon, Sun, Menu, Zap, Database,
+  ChevronDown, Moon, Sun, Menu, Database,
   Network, Layers, Globe, TrendingUp, Award, Target, Activity, MessageSquare,
 } from "lucide-react";
 
@@ -878,9 +878,9 @@ function Footer() {
               The AI operating system for modern universities. Assess. Adapt. Advance.
             </p>
             <div className="mt-6 flex gap-3">
-              <a href="#" className="p-2 rounded-lg glass hover:bg-accent"><Twitter className="h-4 w-4" /></a>
-              <a href="#" className="p-2 rounded-lg glass hover:bg-accent"><Linkedin className="h-4 w-4" /></a>
-              <a href="#" className="p-2 rounded-lg glass hover:bg-accent"><Github className="h-4 w-4" /></a>
+              <a href="#" aria-label="X" className="p-2 rounded-lg glass hover:bg-accent text-xs font-bold w-8 h-8 flex items-center justify-center">𝕏</a>
+              <a href="#" aria-label="LinkedIn" className="p-2 rounded-lg glass hover:bg-accent text-xs font-bold w-8 h-8 flex items-center justify-center">in</a>
+              <a href="#" aria-label="GitHub" className="p-2 rounded-lg glass hover:bg-accent"><Globe className="h-4 w-4" /></a>
             </div>
           </div>
           {cols.map((c, i) => (
